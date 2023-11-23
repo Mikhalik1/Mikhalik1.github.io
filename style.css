@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+canvas{
+    background: #eee;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+}
+
+img{
+    position: absolute;
+    display: none;
+    margin: 0 auto;
+}
+
+#main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
