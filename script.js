@@ -27,8 +27,8 @@ var audio1 = new Audio('ya no me enojo contigo solo observo y pienso (LetraLyric
 
 var audio2 = new Audio('Ирина Аллегрова -  с Днём Рождения.mp3');
 var audio3 = new Audio('бара бара бара бере бере бере.mp3');
-audio1.volume = 0.1;
-audio2.volume = 0.1;
+
+
 function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
